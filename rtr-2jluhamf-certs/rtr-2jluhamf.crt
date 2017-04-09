@@ -1,0 +1,81 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 15314800772687989572 (0xd4891a2955f20b44)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=CN, ST=Beijing, O=Yunify Technologies Inc, CN=Yunify CA/emailAddress=sysop@yunify.com
+        Validity
+            Not Before: Mar  1 08:00:10 2017 GMT
+            Not After : Feb 24 08:00:10 2037 GMT
+        Subject: CN=kmyy1_rtr-2jluhamf
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:bb:55:1a:28:aa:ce:f1:61:96:a1:07:93:4e:aa:
+                    1e:96:bb:b9:d5:2c:b5:8e:84:a9:68:0a:61:e8:2e:
+                    72:60:a9:1d:b7:4a:20:76:99:d6:0b:85:c6:cd:df:
+                    79:ca:88:61:c7:82:48:90:df:06:b3:a7:29:91:50:
+                    11:0a:0d:7b:57:1b:67:4a:3a:c4:8e:22:8a:88:01:
+                    d6:21:13:62:e1:d5:de:01:7b:d1:45:a2:59:7d:74:
+                    fc:d9:86:56:7b:66:c4:33:25:53:0d:61:fe:f4:1c:
+                    da:ee:37:85:76:9f:a3:d2:ed:bb:68:97:13:32:d5:
+                    d7:05:fd:a8:a3:c3:cc:ed:8a:b5:74:f2:b8:8a:0f:
+                    28:e1:9e:53:b3:73:30:ff:1e:35:ea:b9:bb:9a:2b:
+                    20:53:d4:75:bd:b1:69:7f:f2:da:ce:39:c7:45:e4:
+                    fb:f5:5b:af:e4:fd:09:78:e2:f8:8d:41:7d:34:d3:
+                    dc:65:c2:aa:4d:52:4b:5a:31:62:bc:70:52:4d:d1:
+                    ff:84:12:d3:7b:88:3c:8a:3f:2f:8b:63:8d:7d:4a:
+                    65:68:67:4d:18:ec:a6:1d:18:2d:56:23:41:49:ea:
+                    15:64:f9:33:82:b2:bc:4e:27:7b:aa:36:bc:ea:f1:
+                    6e:46:c4:59:28:1f:a6:72:ff:5c:f1:47:ca:a6:78:
+                    6e:2b
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                OpenSSL Generated Certificate
+            X509v3 Subject Key Identifier: 
+                66:7E:24:CC:D1:27:74:91:C1:31:5B:F5:91:91:74:0E:20:F2:0D:78
+            X509v3 Authority Key Identifier: 
+                keyid:EF:86:E4:4A:F5:54:B4:59:48:23:E5:98:03:7E:32:D7:D9:5F:CC:1D
+
+    Signature Algorithm: sha256WithRSAEncryption
+         3d:ad:24:df:45:10:60:a7:22:5a:58:3a:98:2b:64:43:fa:02:
+         15:49:36:65:17:dc:ff:54:2e:c3:9e:bd:42:8c:fa:56:90:f7:
+         b3:b7:d2:64:2b:b5:a5:cb:29:53:c6:9f:5d:1e:d9:0a:f4:28:
+         e9:6d:10:41:3e:ee:c3:94:36:e2:3e:62:6f:11:d4:c3:ca:d3:
+         f1:14:30:99:fb:bd:3c:0f:6a:09:7e:0d:d9:4d:f3:5c:ca:79:
+         af:bb:d4:02:c3:68:e9:b9:af:86:fc:c5:67:01:9b:9f:cd:0d:
+         c4:11:aa:1e:db:27:07:2a:e8:25:3d:d0:d5:89:53:58:47:4a:
+         2e:1b:a7:d7:87:f3:56:ea:c7:66:a4:1e:de:20:37:31:7a:86:
+         28:89:18:00:73:81:48:dc:7b:a7:1c:8d:1c:28:dd:d3:04:b7:
+         b9:b3:7e:c7:41:a3:7c:30:e3:af:fd:9e:a4:eb:d8:30:91:2e:
+         99:3c:a9:3e:a8:6c:6d:1e:dc:99:0e:6d:c7:71:e7:be:3b:dd:
+         f5:a5:90:b4:ba:06:4f:b2:90:65:d5:44:bb:bf:1a:9a:09:e8:
+         12:2a:81:6a:78:28:b6:00:41:d1:1a:9a:e8:5f:1c:e7:f1:b1:
+         6f:9b:8b:a7:26:18:fb:0d:9b:7a:c4:ea:ae:67:c1:c0:b4:be:
+         cd:c9:9c:20
+-----BEGIN CERTIFICATE-----
+MIIDkTCCAnmgAwIBAgIJANSJGilV8gtEMA0GCSqGSIb3DQEBCwUAMHYxCzAJBgNV
+BAYTAkNOMRAwDgYDVQQIDAdCZWlqaW5nMSAwHgYDVQQKDBdZdW5pZnkgVGVjaG5v
+bG9naWVzIEluYzESMBAGA1UEAwwJWXVuaWZ5IENBMR8wHQYJKoZIhvcNAQkBFhBz
+eXNvcEB5dW5pZnkuY29tMB4XDTE3MDMwMTA4MDAxMFoXDTM3MDIyNDA4MDAxMFow
+HTEbMBkGA1UEAwwSa215eTFfcnRyLTJqbHVoYW1mMIIBIjANBgkqhkiG9w0BAQEF
+AAOCAQ8AMIIBCgKCAQEAu1UaKKrO8WGWoQeTTqoelru51Sy1joSpaAph6C5yYKkd
+t0ogdpnWC4XGzd95yohhx4JIkN8Gs6cpkVARCg17VxtnSjrEjiKKiAHWIRNi4dXe
+AXvRRaJZfXT82YZWe2bEMyVTDWH+9Bza7jeFdp+j0u27aJcTMtXXBf2oo8PM7Yq1
+dPK4ig8o4Z5Ts3Mw/x416rm7misgU9R1vbFpf/LazjnHReT79Vuv5P0JeOL4jUF9
+NNPcZcKqTVJLWjFivHBSTdH/hBLTe4g8ij8vi2ONfUplaGdNGOymHRgtViNBSeoV
+ZPkzgrK8Tid7qja86vFuRsRZKB+mcv9c8UfKpnhuKwIDAQABo3sweTAJBgNVHRME
+AjAAMCwGCWCGSAGG+EIBDQQfFh1PcGVuU1NMIEdlbmVyYXRlZCBDZXJ0aWZpY2F0
+ZTAdBgNVHQ4EFgQUZn4kzNEndJHBMVv1kZF0DiDyDXgwHwYDVR0jBBgwFoAU74bk
+SvVUtFlII+WYA34y19lfzB0wDQYJKoZIhvcNAQELBQADggEBAD2tJN9FEGCnIlpY
+OpgrZEP6AhVJNmUX3P9ULsOevUKM+laQ97O30mQrtaXLKVPGn10e2Qr0KOltEEE+
+7sOUNuI+Ym8R1MPK0/EUMJn7vTwPagl+DdlN81zKea+71ALDaOm5r4b8xWcBm5/N
+DcQRqh7bJwcq6CU90NWJU1hHSi4bp9eH81bqx2akHt4gNzF6hiiJGABzgUjce6cc
+jRwo3dMEt7mzfsdBo3ww46/9nqTr2DCRLpk8qT6obG0e3JkObcdx57473fWlkLS6
+Bk+ykGXVRLu/GpoJ6BIqgWp4KLYAQdEamuhfHOfxsW+bi6cmGPsNm3rE6q5nwcC0
+vs3JnCA=
+-----END CERTIFICATE-----
