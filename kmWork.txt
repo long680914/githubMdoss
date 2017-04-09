@@ -1,0 +1,89 @@
+医林管理后台域名:http://doctor.km1818.com/km_doctor/index.html  
+账号
+admin
+密码
+doctor
+
+
+SVN账号:e-longqinghui
+密码:lqh87215
+https://10.1.0.116/svn/GFYF/km_doctor_code
+
+文档
+https://10.1.0.116/svn/GFYF/doc
+
+
+maven-tomcat
+
+直接在上述文章中的Goals值中的tomcat:run前边加上-Dmaven.tomcat.port=8081即可，最终效果为
+
+${workspace_loc:/yl-wap}
+
+-Dmaven.tomcat.port=8081 tomcat:run
+
+
+正式数据库:172.20.21.3
+
+测试数据库:10.1.6.130
+
+
+测试环境后台：http://kmzyf.km1818.com/km_doctor/login.html
+账号和密码：admin/admin
+
+
+花生壳:jiang13479
+
+
+tomcat直接部署war包
+
+<Context path="/manager" docBase="manager" debug="0"privileged="true"/>
+拷贝一下并修改：path="" 为war路径，docBase=""为你的war的文件名。
+
+maven  打包忽略测试包
+install  -Dmaven.test.skip=true  -P test
+
+
+文档密码:km600518
+
+就医宝openid ---oLYwWwOZhnhsQxnug2pMZK-JHhGI
+
+
+
+
+
+
+
+
+
+
+#医林数据流向
+SELECT o.order_id,p.doctor,rh.hos_name,s.saleman_name,dd.dict_name,ifnull(d.drug_name,d.medicines),d.dose,d.unit,h.unit_price 
+,(d.dose*h.unit_price) as sum ,d.goods_norms,h.goods_orgin,o.create_time ,if(p.type=1,'西药','中药')
+,p.amount,o.completion_time,if(p.is_suffering=1,'煎煮','非煎煮')is_suffering
+FROM doc_prescriptions p 
+inner join doc_order o 
+on p.order_id=o.order_id  
+inner join doc_prescription_details d 
+on p.prescri_id=d.prescri_id
+inner join doc_herbs h 
+on h.goods_num=d.goods_num
+inner join doc_user u 
+on u.user_id=o.doc_uid
+left join doc_saleman s 
+on o.saleman_id = s.saleman_id
+
+left join doc_dict dd
+on dd.dict_code=s.department
+
+left join doc_rs_hospital rh 
+on rh.id = u.hos_id
+WHERE o.`status`=20
+and o.completion_time>='2017-03-01 00:00:00'
+and o.completion_time<='2017-03-31 23:59:59'
+and p.type=0 
+and dd.dict_type='DEPARTMENT'
+order by o.completion_time
+;
+
+select * from doc_dict where dict_type='DEPARTMENT';---业务员所属部门表
+ ，
